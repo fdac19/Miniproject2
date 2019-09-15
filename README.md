@@ -12,10 +12,22 @@ source git repositories, so I searched for "git urls"
    
 ```
 import pymongo, json
-
 client = pymongo.MongoClient (host="da0.eecs.utk.edu")
 db = client ['fdac19mp2']
 coll = db ['YourNetId']
 # for each dataset
 coll.insert ( { 'topic':'YourTopic', 'title': 'Data title', 'license': 'license', 'description': 'Brief data description', 'urls': [ 'url1', 'url2', ... ] } )
+```
+
+
+To check what is recorded:
+```
+import pprint
+import pymongo, json
+client = pymongo.MongoClient (host="da0.eecs.utk.edu")
+db = client ['fdac19mp2']
+coll = db ['YourNetId']
+pp = pprint.PrettyPrinter(indent=1,width=65)
+for r in coll. find():
+  print(pp .pformat (r))  
 ```
