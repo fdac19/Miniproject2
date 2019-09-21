@@ -16,7 +16,7 @@ client = pymongo.MongoClient (host="da1.eecs.utk.edu")
 db = client ['fdac19mp2']
 coll = db ['YourNetId']
 # for each dataset
-coll.insert_many ( { 'topic':'YourTopic', 'title': 'Data title', 'license': 'license', 'description': 'Brief data description', 'urls': [ 'url1', 'url2', ... ] } )
+coll.insert_one ( { 'topic':'YourTopic', 'title': 'Data title', 'license': 'license', 'description': 'Brief data description', 'urls': [ 'url1', 'url2', ... ] } )
 ```
 
 
