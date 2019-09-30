@@ -1,19 +1,12 @@
 # Still missing collections 
 
-aliu11
 apatel79
-cscott57
 madams56
-rbrink1
-skitche1
 smunira
-twinter4
 
 ## < 20 entries in the collection
-atipton7;18
-atutko;19
 cbrunet1;1
-cwilder8;13
+cwilder8;16
 mshoffn2;4
 
 
