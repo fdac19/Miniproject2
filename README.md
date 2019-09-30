@@ -2,7 +2,6 @@
 
 apatel79
 madams56
-smunira
 
 ## < 20 entries in the collection
 cbrunet1;1
