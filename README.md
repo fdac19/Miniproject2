@@ -1,7 +1,6 @@
 # Still missing collections 
 
 apatel79
-madams56
 
 ## < 20 entries in the collection
 cbrunet1;1
