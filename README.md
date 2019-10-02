@@ -4,8 +4,6 @@ apatel79
 
 ## < 20 entries in the collection
 cbrunet1;1
-cwilder8;16
-
 
 # Data Discovery Project
 
